@@ -3,7 +3,12 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]logs/
+[Uu]serSettings/
+[Ll]logs2/
+[Uu]serSettings2/
 Assets/AssetStoreTools*
+
 
 # Visual Studio cache directory
 .vs/
@@ -23,7 +28,8 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
-*.VC.db
+*.VC.db 
+*.log
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -35,3 +41,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Tell to ignore a Scripts directory on the root level only:
+/Logs/
